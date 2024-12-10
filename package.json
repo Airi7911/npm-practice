@@ -4,7 +4,8 @@
   "description": "\"\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "webpack --mode development --watch & webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Airi7911/npm-practice#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
