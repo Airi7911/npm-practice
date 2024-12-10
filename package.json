@@ -4,7 +4,7 @@
   "description": "\"\"",
   "main": "index.js",
   "scripts": {
-    "test": "\"\""
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Airi7911/npm-practice/issues"
   },
-  "homepage": "https://github.com/Airi7911/npm-practice#readme"
+  "homepage": "https://github.com/Airi7911/npm-practice#readme",
+  "devDependencies": {
+    "webpack": "^5.97.1"
+  }
 }
